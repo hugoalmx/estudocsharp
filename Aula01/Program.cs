@@ -6,6 +6,8 @@
 //CHAR LITERAL = Pode-se utilizar as aspas simples para definir um caractere literal. 
 //Por exemplo, 'A' é um caractere literal que representa a letra A.
 
+using System.Data;
+
 Console.WriteLine('H'); //Exemplo de caractere literal
 
 //STRING LITERAL = Pode-se utilizar as aspas duplas para definir uma cadeia de caracteres literal. 
@@ -22,4 +24,16 @@ Console.WriteLine(42); // Exemplo de valor numérico inteiro
 Console.WriteLine(3.14); // Exemplo de valor numérico ponto flutuante
 
 Console.WriteLine(0.25F); // Exemplo de valor numérico ponto flutuante com float especificado com 'F' ou 'f'
+
+Console.WriteLine(2.605); // O compilador usa como padrão um double literal quando um número decimal é inserido sem um sufixo literal. 
+                          // O sufixo literal para decimal é 'M' ou 'm'.
+
+// Para true ou false, você pode usar o tipo de dados booleano (bool) para representar valores lógicos literais.
+
+Console.WriteLine(true); // Exemplo de valor lógico verdadeiro
+
+Console.WriteLine(false); // Exemplo de valor lógico falso
+
+
+
 
